@@ -5,9 +5,9 @@
 // ============================================================
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'tb_sepatu');
-define('DB_USER', 'root');
-define('DB_PASS', '');         // Kosongkan jika Laragon default
+define('DB_NAME', 'tokokuee_tb_sepatu');
+define('DB_USER', 'gerrysalutt');
+define('DB_PASS', 'gerrysalutt2');         // Kosongkan jika Laragon default
 define('DB_CHARSET', 'utf8mb4');
 
 function getDB(): PDO {
