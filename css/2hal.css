@@ -1,0 +1,172 @@
+/* === NAVBAR UMUM === */
+.navbar {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* === Menu navbar (HOME, EKSLUSIF, KATEGORI, dll) pakai Roboto === */
+.navbar-nav .nav-link,
+.dropdown-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+/* === Hanya brand text pakai Aclonica === */
+.logo-text {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* === Default text lain tetap pakai Bootstrap === */
+body, .navbar, .nav-link, .dropdown-item {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+
+/* Brand Title */
+.brand-title {
+  margin: 30px 0 20px;
+}
+
+.brand-logo-title {
+  max-height: 40px;
+}
+
+/* Product Card */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  
+}
+
+.card {
+  text-decoration: none;
+  color: #000000;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.product-card h6 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.product-card p {
+  font-size: 13px;
+  min-height: 36px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.product-card .price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+}
+
+.card a {
+  text-decoration: none; /* hilangkan underline */
+  color: inherit;        /* ikuti warna parent, bukan biru */
+}
+.card a:hover {
+  color: inherit;        /* pas hover tetap tidak berubah */
+}
+
+
+
+
+
+
+/* === FOOTER === */
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.site-footer h6 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.site-footer .footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-footer .footer-links li {
+  margin-bottom: 8px;
+}
+
+.site-footer .footer-links a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.site-footer .footer-links a:hover {
+  color: #ff0000; /* hover merah */
+}
+
+.site-footer hr {
+  border-top: 1px solid #ffffff;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.footer-bottom .contact-info {
+  margin-bottom: 8px;
+}
+
+.footer-bottom .contact-info span {
+  margin: 0 12px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.footer-bottom .contact-info i {
+  margin-right: 6px;
+  color: #fff;
+}
+
+.footer-bottom .copyright {
+  font-size: 12px;
+  color: #777;
+}
+

@@ -1,0 +1,84 @@
+/* === NAVBAR UMUM === */
+.navbar {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* === Menu navbar (HOME, EKSLUSIF, KATEGORI, dll) pakai Roboto === */
+.navbar-nav .nav-link,
+.dropdown-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+/* === Hanya brand text pakai Aclonica === */
+.logo-text {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* === Default text lain tetap pakai Bootstrap === */
+body, .navbar, .nav-link, .dropdown-item {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.logo-img {
+  height: 40px;
+}
+ 
+
+/* Product Detail */
+.product-detail .price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.product-main-img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Product Card for Recommendations */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+  height: 160px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.product-card h6 {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.product-card p {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.product-card .price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+}
