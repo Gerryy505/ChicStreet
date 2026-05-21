@@ -6,7 +6,7 @@
 
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'tokokuee_tb_sepatu');
-define('DB_USER', 'gerrysalutt');
+define('DB_USER', 'tokokuee_gerrysalutt');
 define('DB_PASS', 'gerrysalutt2');         // Kosongkan jika Laragon default
 define('DB_CHARSET', 'utf8mb4');
 
